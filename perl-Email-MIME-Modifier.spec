@@ -30,8 +30,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Provides a number of useful methods for manipulating MIME messages.
 
-# %description -l pl
-# TODO
+%description -l pl
+Pakiet dostarcza wiele u¿ytecznych metod do obróbki wiadomo¶ci MIME.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
