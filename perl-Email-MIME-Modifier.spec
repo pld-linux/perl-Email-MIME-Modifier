@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Email
 %define	pnam	MIME-Modifier
-Summary:	Email::MIME::Modifier - Modify Email::MIME Objects Easily
-#Summary(pl):	
+Summary:	Email::MIME::Modifier - modify Email::MIME objects easily
+Summary(pl):	Email::MIME::Modifier - ³atwe modyfikowanie obiektów Email::MIME
 Name:		perl-Email-MIME-Modifier
 Version:	1.3
 Release:	1
