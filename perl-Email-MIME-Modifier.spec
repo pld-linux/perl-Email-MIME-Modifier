@@ -8,13 +8,13 @@
 Summary:	Email::MIME::Modifier - modify Email::MIME objects easily
 Summary(pl):	Email::MIME::Modifier - ³atwe modyfikowanie obiektów Email::MIME
 Name:		perl-Email-MIME-Modifier
-Version:	1.3
+Version:	1.42
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	05112d5156b8c7944987fc5d853ae63c
+# Source0-md5:	3acf1c19da93334be37f3f9a288acd91
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
