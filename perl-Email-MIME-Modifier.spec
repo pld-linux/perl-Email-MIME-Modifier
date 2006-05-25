@@ -9,7 +9,7 @@ Summary:	Email::MIME::Modifier - modify Email::MIME objects easily
 Summary(pl):	Email::MIME::Modifier - ³atwe modyfikowanie obiektów Email::MIME
 Name:		perl-Email-MIME-Modifier
 Version:	1.42
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -24,6 +24,8 @@ BuildRequires:	perl-Email-MIME-Encodings >= 1.2
 BuildRequires:	perl-Email-MessageID >= 1.2
 BuildRequires:	perl-Email-Simple >= 1.9
 %endif
+# not autodetected
+Requires:	perl-Email-MIME >= 1.7
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
