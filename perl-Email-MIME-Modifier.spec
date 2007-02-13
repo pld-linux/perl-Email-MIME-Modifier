@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	MIME-Modifier
 Summary:	Email::MIME::Modifier - modify Email::MIME objects easily
-Summary(pl.UTF-8):   Email::MIME::Modifier - łatwe modyfikowanie obiektów Email::MIME
+Summary(pl.UTF-8):	Email::MIME::Modifier - łatwe modyfikowanie obiektów Email::MIME
 Name:		perl-Email-MIME-Modifier
 Version:	1.43
 Release:	1
